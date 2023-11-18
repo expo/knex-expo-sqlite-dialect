@@ -3613,10 +3613,10 @@ expo-modules-core@1.10.0:
   dependencies:
     invariant "^2.2.4"
 
-expo-sqlite@^12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/expo-sqlite/-/expo-sqlite-12.2.0.tgz#e97c1065a38a7c6c59aecf5e4abbe875904aaa11"
-  integrity sha512-aI0Fzhodd3Kv+hGQ0vZcgAQ+1EFtz6W/vIyYnfczeJIc3RufrjvgT/SoqaSvmdF0OVUz++LYhuDXr5yWJwYibg==
+expo-sqlite@~12.2.1:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/expo-sqlite/-/expo-sqlite-12.2.1.tgz#189d3448eb3e0389571550979cc456e6dbcd544e"
+  integrity sha512-JocpRbUaEzRCkbjTwLIz6JM2wuIqyunSBuxJOE41+qoUAx4dkIw+tMMN0n0qdMZDky2u7huCsK3vrR7GLehtZA==
   dependencies:
     "@expo/websql" "^1.0.1"
 
