@@ -39,14 +39,14 @@ const knex = Knex({
 
 ## Components
 
-### `packages/knex-expo-sqlite-dialect`
+### [`packages/knex-expo-sqlite-dialect`](https://github.com/expo/knex-expo-sqlite-dialect/tree/main/packages/knex-expo-sqlite-dialect)
 
 The main package
 
-> [**babel-preset**](#todo)
+> [**babel-preset**](https://github.com/expo/knex-expo-sqlite-dialect/blob/main/packages/knex-expo-sqlite-dialect/babel-preset.js)
 
 Since Knex.js is developed on Node.js runtime, some of Node.js dependencies are not available on React Native. The Babel preset uses the [`babel-plugin-module-resolver`](https://www.npmjs.com/package/babel-plugin-module-resolver) plugin to alias these Node.js modules to other supported modules.
 
-### `apps/example`
+### [`apps/example`](https://github.com/expo/knex-expo-sqlite-dialect/tree/main/apps/example)
 
-The example app replicated from the [`with-sqlite` example](https://github.com/expo/examples/blob/master/with-sqlite).
+The example app replicated from the [`with-sqlite` example](https://github.com/expo/examples/blob/master/with-sqlite) with Knex.js integration.
