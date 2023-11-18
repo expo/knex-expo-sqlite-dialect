@@ -1,0 +1,46 @@
+{
+  "name": "@expo/knex-expo-sqlite-dialect",
+  "version": "0.0.1",
+  "description": "Knex.js dialect for Expo SQLite",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/knex-expo-sqlite-dialect.git",
+    "directory": "packages/knex-expo-sqlite-dialect"
+  },
+  "keywords": [
+    "expo",
+    "sqlite",
+    "knex",
+    "dialect"
+  ],
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "babel-preset.js",
+    "enhanced-timers.js"
+  ],
+  "author": "650 Industries, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "node-libs-browser": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "timers-browserify": "^2.0.12",
+    "tty-browserify": "^0.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "expo-sqlite": "^12.2.0",
+    "knex": "^3.0.1"
+  },
+  "peerDependencies": {
+    "expo-sqlite": "*",
+    "knex": "*"
+  }
+}

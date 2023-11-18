@@ -1,0 +1,13 @@
+{
+  "name": "@expo/knex-expo-sqlite-dialect-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "resolutions": {
+    "readable-stream": "^3.6.2"
+  }
+}
