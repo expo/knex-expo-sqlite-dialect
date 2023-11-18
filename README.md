@@ -17,7 +17,7 @@ Knex.js dialect for Expo SQLite
    return {
      presets: [
        'babel-preset-expo',
-+      '@expo/knex-expo-sqlite-dialect/babel-preset',
++      'module:@expo/knex-expo-sqlite-dialect/babel-preset',
      ],
    };
  };

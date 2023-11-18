@@ -3,7 +3,7 @@ module.exports = function (api) {
   return {
     presets: [
       'babel-preset-expo',
-      '@expo/knex-expo-sqlite-dialect/babel-preset',
+      'module:@expo/knex-expo-sqlite-dialect/babel-preset',
     ],
   };
 };
