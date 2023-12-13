@@ -36,7 +36,7 @@ class ClientExpoSQLite extends ClientSQLite3 {
         expectReturning = true;
     }
     if (expectReturning) {
-      const response = await connection.allAsync(obj.sql, obj.bindings);
+      const response = await connection.getAllAsync(obj.sql, obj.bindings);
       obj.response = response;
       return obj;
     } else {
