@@ -37,7 +37,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "expo-sqlite": "~13.1.0",
-    "knex": "^3.0.1"
+    "knex": "^3.1.0"
   },
   "peerDependencies": {
     "expo-sqlite": "*",
