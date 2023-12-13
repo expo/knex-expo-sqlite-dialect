@@ -20,7 +20,9 @@
     "index.d.ts",
     "index.js",
     "babel-preset.js",
-    "enhanced-timers.js"
+    "enhanced-timers.js",
+    "README.md",
+    "types.d.ts"
   ],
   "author": "650 Industries, Inc.",
   "license": "MIT",
