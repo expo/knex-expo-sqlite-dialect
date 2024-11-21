@@ -2,7 +2,7 @@ import ClientSQLite3 from 'knex/lib/dialects/sqlite3';
 
 class ClientExpoSQLite extends ClientSQLite3 {
   _driver() {
-    return require('expo-sqlite/next');
+    return require('expo-sqlite');
   }
 
   async acquireRawConnection() {
