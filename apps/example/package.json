@@ -7,7 +7,7 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
-    "@expo/knex-expo-sqlite-dialect": "0.0.1",
+    "@expo/knex-expo-sqlite-dialect": "~0.1.0",
     "expo": "~53.0.11",
     "expo-dev-client": "~5.2.0",
     "expo-sqlite": "~15.2.12",

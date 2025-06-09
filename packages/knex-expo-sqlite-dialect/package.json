@@ -1,6 +1,6 @@
 {
   "name": "@expo/knex-expo-sqlite-dialect",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Knex.js dialect for Expo SQLite",
   "main": "index.js",
   "types": "types.d.ts",
