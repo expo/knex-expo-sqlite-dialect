@@ -1,14 +1,14 @@
-import type { Database } from 'expo-sqlite/next';
+import type { Database } from 'expo-sqlite';
 import ClientSQLite3 from 'knex/lib/dialects/sqlite3';
 
 class ClientExpoSQLite extends ClientSQLite3 {
   _driver() {
-    return require('expo-sqlite/next');
+    return require('expo-sqlite');
   }
 
   async acquireRawConnection(): Promise<any> {
     const openDatabaseAsync = this.driver
-      .openDatabaseAsync as typeof import('expo-sqlite/next').openDatabaseAsync;
+      .openDatabaseAsync as typeof import('expo-sqlite').openDatabaseAsync;
     return openDatabaseAsync(this.connectionSettings.filename, {
       useNewConnection: true,
     });
